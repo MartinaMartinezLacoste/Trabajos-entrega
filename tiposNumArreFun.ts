@@ -19,7 +19,7 @@ function tiposDeNumeros (arr2: number[]): void{
     for (let i: number= 0; i < arr2.length; i++){
         if (arr2[i] === 0){
             cero ++
-        } else if (arr2[i] > 1){
+        } else if (arr2[i] > 0){
             positivo++
         }else{
             negativo++

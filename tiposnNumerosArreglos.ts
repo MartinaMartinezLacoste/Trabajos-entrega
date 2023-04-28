@@ -15,7 +15,7 @@ for (let i: number =0; i < numArreglo.length; i++) {
     numArreglo[i]= rls.questionInt ("ingrese los numeros: ");
     if (numArreglo[i] === 0){
         cero ++;
-    } else if (numArreglo[i] > 1) {
+    } else if (numArreglo[i] > 0) {
         positivos ++;
     } else {
         negativos ++;
