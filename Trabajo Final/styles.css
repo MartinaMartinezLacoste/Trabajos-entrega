@@ -84,9 +84,41 @@ body{
     background-color: #564beea9;
 }
   
-   
-.formulario{
+
+.container-footer {
+    width: 100%;
+    background-color:  rgba(131, 131, 241, 0.432);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  
+  .left-section {
+    float: left;
+    width: 50%;
+  }
+  
+  .right-section {
+    float: right;
+    width: 50%;
+  }
+  
+  .social-icons {
     display: flex;
-}
+  }
+  
+  .icono {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  
+  
   
   
