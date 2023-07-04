@@ -1,10 +1,17 @@
-const inputs = document.querySelectorAll("input");
-inputs[2].addEventListener("click", handleSubmit);
+const form = document.getElementById("formulario");
 
-function handleSubmit(){
-    const user ={
-        name: inputs[0].value,
-        email: inputs[1].value,
-    };
-    console.table(user);
+form.addEventListener("submit", handleSubmit);
+
+function handleSubmit(event) {
+  event.preventDefault(); // Evita que el formulario se envíe y se recargue la página
+
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+
+  const user = {
+    name: nameInput.value,
+    email: emailInput.value,
+  };
+
+  console.log(user);
 }
